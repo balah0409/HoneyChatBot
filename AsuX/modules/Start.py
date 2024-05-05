@@ -14,7 +14,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 text="𝐍𝐚 𝐏𝐚𝐯𝐚𝐦'𝐥𝐚 𝐀𝐝𝐝 𝐏𝐚𝐧𝐧𝐢𝐤𝐨",
                 url=f"http://t.me/{context.bot.username}?startgroup=true"),
             InlineKeyboardButton(
-                text="𝐌𝐚𝐦𝐬",
+                text="𝐃𝐚𝐫𝐥𝐢𝐧𝐠",
                 url=f"https://t.me/Idhayann"),
             
         ]
@@ -35,7 +35,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 text="𝐍𝐚 𝐏𝐚𝐯𝐚𝐦'𝐥𝐚 𝐀𝐝𝐝 𝐏𝐚𝐧𝐧𝐢𝐤𝐨",
                 url=f"http://t.me/{context.bot.username}?startgroup=true"),
             InlineKeyboardButton(
-                text="𝐌𝐚𝐦𝐬",
+                text="𝐃𝐚𝐫𝐥𝐢𝐧𝐠",
                 url=f"https://t.me/Idhayann"),
         ]
     )
