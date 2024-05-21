@@ -11,11 +11,16 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     akboss.append(
         [
             InlineKeyboardButton(
-                text="𝐍𝐚 𝐏𝐚𝐯𝐚𝐦'𝐥𝐚 𝐀𝐝𝐝 𝐏𝐚𝐧𝐧𝐢𝐤𝐨",
+                text="𝐀ᴅᴅ 𝐌ᴇ",
                 url=f"http://t.me/{context.bot.username}?startgroup=true"),
             InlineKeyboardButton(
-                text="𝐃𝐚𝐫𝐥𝐢𝐧𝐠",
+                text="𝐃ᴀʀʟɪɴɢ",
                 url=f"https://t.me/Idhayann"),
+        ]
+        [
+        InlineKeyboardButton(
+                text="𝐒ᴜᴘᴘᴏʀᴛ",
+                url=f"https://t.me/musicheavenvibes"),
             
         ]
     )
