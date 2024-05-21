@@ -17,12 +17,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 text="𝐃ᴀʀʟɪɴɢ",
                 url=f"https://t.me/Idhayann"),
         ]
-        [
-        InlineKeyboardButton(
-                text="𝐒ᴜᴘᴘᴏʀᴛ",
-                url=f"https://t.me/musicheavenvibes"),
-            
-        ]
+    
     )
     await msg.reply_text(
         f"ʜᴇʏᴀ\nɪ'ᴍ {context.bot.first_name}\nɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ \n",
